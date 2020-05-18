@@ -17,7 +17,19 @@ Los Sistemas de Control de Versiones Centralizados (VCS) 
 
 ** Jonathan
 Los Sistemas de Control de Versiones Distribuidos (DVCS) 
-
+Si los sistemas centralizados utilizan un modelo clásico de entorno cliente-servidor, se podría decir que
+un sistema distribuido es similar a un sistema Peer-to-Peer (P2P).
+En estos sistemas, en lugar de que cada cliente tiene una copia de trabajo del (único) servidor, la copia
+de trabajo de cada cliente es un repositorio en sí mismo, una rama nueva del proyecto central. De esta
+forma, la sincronización de las distintas ramas se realiza intercambiando “parches” con otros clientes
+del proyecto. Esto es claramente un enfoque muy diferente al de los sistemas centralizados, por diversos
+motivos:
+No hay una copia original del código del proyecto, solo existen las distintas copias de trabajo.
+Operaciones como los commits, mirar el historial o rehacer cambios, no necesitan de una conexión
+con un servidor central, esta conexión solo es necesaria al “compartir” tu rama con otro cliente
+del sistema.
+Cada copia de trabajo es una copia remota del código fuente y de la historia de cambios, dando
+una seguridad muy natural contra la pérdida de los datos.
 
 
 **** Erick
