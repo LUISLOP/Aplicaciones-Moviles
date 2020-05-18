@@ -11,8 +11,21 @@ Buscar un repositorio github de una aplicacion para celulares
 
 
 
-***Juliet
+***Juliette
 Los Sistemas de Control de Versiones Centralizados (VCS) 
+
+##¿Qué es control de versiones?
+
+_El control de versiones es un sistema que registra los cambios realizados
+sobre un archivo o conjunto de archivos a lo largo del tiempo de tal manera
+que sea posible recuperar versiones especificas más adelante._
+###Sistemas de Control de Versiones Centralizados
+Para facilitar la colaboración de múltiples desarrolladores
+en un solo proyecto los sistemas de control de versiones
+evolucionaron: en vez de almacenar los cambios y versiones
+en el disco duro de los desarrolladores, estos se almacenaban
+en un servidor.
+
 
 
 ** Jonathan
